@@ -1,0 +1,55 @@
+.hidden {
+display: none;    
+}
+
+#message {
+margin-top: 15px;
+color: #1565c0ff;
+text-align: center;
+font-weight: bold;
+opacity: 0;
+transition: opacity 1s ease;
+}
+
+.fade-in {
+display: block;    
+opacity: 1;
+}
+
+body {
+font-family:Arial, Helvetica, sans-serif;
+background-color: #f4f4f4;
+margin: 0;
+padding: 0;    
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.container {
+text-align: center;    
+padding: 40px;
+background-color: #fff;
+border-radius: 10px;
+box-shadow: 10px;
+box-shadow: 0 0 20px #0000001a;
+}
+
+select, button {
+font-size: 24px;    
+padding: 15px 25px;
+margin: 20px;
+}
+
+#goBtn {
+background-color: #1565c0;
+color: white;
+border: none;    
+border-radius: 5px;
+cursor: pointer;
+}
+
+#goBtn:hover {
+background-color: #0d47a1;    
+}
